@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Rum+Raisin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(harry.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.cabeçalho{
+    display: flex;
+    justify-content: space-around;
+    padding: 28px;
+    align-items: center;
+}
+
+.cabeçalho-logo h1{
+    font-family: "Rum raisin";
+    font-size: 48px;
+    color: #015F73;
+}
+
+.cabeçalho-link {
+    display: flex;
+    font-family: "Roboto";
+    font-size: 25px;
+    gap: 60px;
+   
+}
+
+.cabeçalho-link a{
+    color: #FBF2F2;
+    
+}
+
+.cabeçalho-link button{
+    background-color: #6B0404;
+    color:#FBF2F2;
+    font-family: "Roboto";
+    font-size: 25px;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.section-1{
+ padding: 70px;
+ text-align: center;
+ margin-right: 1100px;
+}
+
+.title h1{
+    font-size: 100px;
+    color: #FBF2F2;
+    font-weight: normal;
+    font-family: "Rum Raisin";
+}
+
+.title p{
+    color: #FBF2F2;
+    font-family: "Saira";
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.title button{
+    background-color: #0E343B;
+    color: #FBF2F2;
+    font-family: "Rum Raisin";
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    width: 160px;
+    margin-top: 35px;
+
+}
+
+.Rodapé{
+    display: flex;
+    background-color:  #015F73;
+    margin-top: 150px;
+    align-items: center;
+}
+
+.Rodapé-texto h1{
+    font-size: 50px;
+    display: flex;
+   margin-left: 600px;
+   font-family: "Roboto";
+   color: #FBF2F2;
+   padding: 5px;
+}
+
+.Rodapé-icones img{
+    width: 40px;
+    margin-left: 15px;    
+
+}

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Rum+Raisin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(harry.png);
+    background-repeat: no-repeat;   
+    background-size: cover;
+    
+   }
+
+.cabeçalho{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 28px;
+}
+
+.cabeçalho-logo h1{
+    font-family:"Rum Raisin";
+    font-size: 48px;
+    color: #015F73;
+}
+
+.cabeçalho-link{
+    display: flex;
+    font-size: 25px;
+    gap: 60px;
+    font-family:"Roboto";
+    align-items: center;
+    
+     
+}
+
+.cabeçalho-link a{
+    color: #FBF2F2;
+}
+
+.cabeçalho-link button{
+    background-color: #6B0404;
+    color:#FBF2F2 ;
+    font-family:"Roboto";
+    font-size: 25px;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+
+}
+
+.Main{
+   margin: 75px;
+   
+}
+
+
+
+.section-1 h1{
+    font-size: 70px;
+    font-weight: normal;
+    color: #FBF2F2;
+    font-family: "Rum Raisin";
+    margin-left: 55px;
+   
+}
+
+.section-1 p{
+    color: #FBF2F2;
+    font-family: "Saira";
+    font-size: 25px;
+    
+}
+
+.section-1 button{
+    font-size: 25px;
+    background-color: #0E343B;
+    color: #FBF2F2;
+    border: none;
+    font-family: "Rum Raisin";
+    padding: 10px;
+    margin-left: 115px;
+    margin-top: 25px;
+    width: 150px;
+    border-radius: 8px;
+}
+
+.rodapé{
+    display: flex;
+    background-color: #015F73;
+    height: 60px;
+    align-items: center;
+
+  
+}
+
+.rodapé-icones{
+    display: flex;
+    gap: 15px;
+    margin-left: 15px;
+}
+
+
+.rodapé h1{
+    color: #FBF2F2;
+    font-family: "Roboto";
+    font-size: 50px;
+    margin-left: 395px;
+}
